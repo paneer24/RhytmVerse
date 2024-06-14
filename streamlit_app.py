@@ -96,13 +96,13 @@ with col2:
 with col3:
     fav_songs = st.text_input('Favourite songs/singers/genres', placeholder='separated by comma')
     gender = st.selectbox('Gender', options=['Male', 'Female'])
-    language = st.selectbox('Poem ka language', ['English', 'Hindi', 'Tamil'])
+    language = st.selectbox('Poem  language', ['English', 'Hindi', 'Tamil'])
 
 # Generate poem content
 contents = f'A person whose name is {name}. Gender is {gender}. Age is {age}. Area of interest are {", ".join(interest)}.'
 contents += f' Lives in state of {state} located in country {country}.'
 contents += f'Profession is {profession}. Favourite show and movies are {fav_show_movie}. And Favourite songs/singers/genres are {fav_songs}.'
-contents += f'Write a high quality rhyming poem about 50 lines describing the person which will be a masterpiece when read by a user. Language of the poem would be {language}.'
+contents += f'Write a high quality rhyming poem about 100 lines describing the person which will be a masterpiece when read by a user. Language of the poem would be {language}.'
 
 # Button to generate the poem
 if st.button('Generate', key='gen'):
