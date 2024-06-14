@@ -37,12 +37,12 @@ st.markdown(
 )
 
 with st.sidebar:
-    st.title("Rhymeweaver")
+    st.title("RhymeVerse")
     st.write("Invoking the magic of poetry, this name alludes to the application's ability to craft intricate rhymes that dance off the page.")
     st.write('With an intuitive user interface and a user-friendly design, this web application invites users to embark on a creative odyssey. By simply providing a few details about the individual, such as their name, interests, and passions, the application harnesses the transformative power of Gemini Pro to generate a personalized poem. Whether it"s a heartfelt tribute to a loved one, a celebration of personal achievements, or a reflective exploration of lifes complexities, the application adapts to the users preferences, producing poems that resonate with authenticity and emotional depth.')
 
 # Main application title
-st.title("Rhymeweaver")
+st.title("RhymeVerse")
 
 # Areas of interest
 aoi = [
