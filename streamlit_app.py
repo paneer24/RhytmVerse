@@ -96,7 +96,7 @@ with col2:
 with col3:
     fav_songs = st.text_input('Favourite songs/singers/genres', placeholder='separated by comma')
     gender = st.selectbox('Gender', options=['Male', 'Female'])
-    language = st.selectbox('Poem  language', ['English', 'Hindi', 'Tamil'])
+    language = st.selectbox('Poem  language', ['English', 'Hindi'])
 
 # Generate poem content
 contents = f'A person whose name is {name}. Gender is {gender}. Age is {age}. Area of interest are {", ".join(interest)}.'
